@@ -2,11 +2,21 @@
 
 [Introduction](./introduction.md)
 
-*   [Patches Overview](./patches/overview.md)
-    *   [Automatic Variable Initialization](./patches/auto-var-init.md)
-    *   [Battery Status API](./patches/battery-status.md)
-    *   [Control Flow Defenses against Return-Oriented-Programming (ROP)](./patches/rop-defenses.md)
-    *   [Do Not Track](./patches/do-not-track.md)
-    *   [HTTPS-Only Mode](./patches/https-only-mode.md)
-    *   [V8 JIT](./patches/jit.md)
-    *   [WebRTC IP Handling](./patches/webrtc-handling.md)
+*   [Code Reuse Attacks](./code-reuse/overview.md)
+    *   [Backward-Edge Protection (Return Addresses)](./code-reuse/backward-edge.md)
+    *   [Forward-Edge Protection (Indirect/Virtual Calls/Jumps)](./code-reuse/forward-edge.md)
+
+*   [Heap Allocator Hardening](./future-work/heap_allocator.md)
+    *   [Hardening PartitionAlloc](./future-work/hardened_partitionalloc.md)
+
+*   [Other Stuff](./other-stuff/overview.md)
+    *   [Automatic Variable Initialization](./other-stuff/auto-var-init.md)
+    *   [Battery Status API](./other-stuff/battery-status.md)
+    *   [Do Not Track](./other-stuff/do-not-track.md)
+    *   [HTTPS-Only Mode](./other-stuff/https-only-mode.md)
+    *   [Signed Overflow](./other-stuff/int-overflow.md)
+    *   [V8 JIT](./other-stuff/jit.md)
+    *   [WebRTC IP Handling](./other-stuff/webrtc-handling.md)
+
+*   [Upstream Hardening](./upstream/overview.md)
+    *   [WebUI Hardening](./upstream/webui.md)
