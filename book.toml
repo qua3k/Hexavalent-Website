@@ -1,0 +1,13 @@
+[book]
+authors = ["The Hexavalent Authors"]
+description = "Documentation for the Hexavalent project"
+language = "en"
+multilingual = false
+src = "src"
+title = "Hexavalent Docs"
+
+[rust]
+edition = "2021"
+
+[output.html]
+git-repository-url = "https://github.com/Hexavalent-Browser/Hexavalent-Website"
