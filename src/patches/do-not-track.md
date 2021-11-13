@@ -1,6 +1,6 @@
 # Do Not Track
 
-Do Not Track is a HTTP header field designed advertise the user agent's agent's
+Do Not Track is a HTTP header field designed to advertise the user agent's
 tracking preference. It has dubious benefit as there is no legislation requiring
 sites to respect DNT, but we enable it by default.
 
