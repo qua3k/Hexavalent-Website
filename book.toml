@@ -4,7 +4,7 @@ description = "Documentation for the Hexavalent project"
 language = "en"
 multilingual = false
 src = "src"
-title = "Hexavalent"
+title = "Hexavalent Docs"
 
 [rust]
 edition = "2021"
